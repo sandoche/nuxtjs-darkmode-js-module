@@ -8,6 +8,7 @@ module.exports = {
     { handler: require('../') }
   ],
   darkmodejs: {
-    label: '🌓'
+    label: '🌓',
+    disableWidget: false
   }
 }

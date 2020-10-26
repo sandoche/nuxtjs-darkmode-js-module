@@ -32,7 +32,8 @@ yarn add @nuxtjs/darkmode-js-module # or npm install @nuxtjs/darkmode-js-module
 
   // or use options likes this,
   darkmodejs: {
-    /* module options */
+    /* module options from Darkmode-js */
+    disableWidget: false
   }
 }
 ```
