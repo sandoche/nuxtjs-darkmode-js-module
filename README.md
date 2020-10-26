@@ -42,7 +42,7 @@ yarn add @nuxtjs/darkmode-js-module # or npm install @nuxtjs/darkmode-js-module
 
 [MIT License](./LICENSE)
 
-Copyright (c) Sandoche Adittane <sandoche@protonmail.com>
+Copyright (c) Sandoche Adittane
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/darkmode-js-module/latest.svg
