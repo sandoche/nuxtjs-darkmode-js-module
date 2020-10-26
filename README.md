@@ -29,6 +29,11 @@ yarn add @nuxtjs/darkmode-js-module # or npm install @nuxtjs/darkmode-js-module
     // With options
     ['@nuxtjs/darkmode-js-module', { /* module options */ }]
   ]
+
+  // or use options likes this,
+  darkmodejs: {
+    /* module options */
+  }
 }
 ```
 
