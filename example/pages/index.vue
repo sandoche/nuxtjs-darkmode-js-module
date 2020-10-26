@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button @click="toggle()">This toggle will work if widget disabled</button>
+    <button @click="toggle()">
+      This toggle will work if widget disabled
+    </button>
   </div>
 </template>
 
@@ -11,5 +13,5 @@ export default {
       this.darkmode.toggle()
     }
   }
-};
+}
 </script>

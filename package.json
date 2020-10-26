@@ -15,7 +15,7 @@
   "main": "lib/module.js",
   "scripts": {
     "dev": "nuxt example",
-    "lint": "eslint --ext .js,.vue .",
+    "lint": "eslint --ext .js,.vue . --fix",
     "release": "npm run test && standard-version && git push --follow-tags && npm publish",
     "test": "npm run lint && jest"
   },
