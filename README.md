@@ -58,10 +58,61 @@ yarn add nuxtjs-darkmode-js-module # or npm install nuxtjs-darkmode-js-module
     saveInCookies: false, // default: true,
     label: '🌓', // default: ''
     autoMatchOsTheme: true, // default: true
-    disableWidget: false
+    disableWidget: false // default: false
   }
 }
 ```
+
+## ▶️ Methods
+If you don't want to show the widget and enable/disable Darkmode programatically you can use the method `toggle()`. You can also check if the Dark Mode is activated with the method `isActivated()`. See them in action in the following example:
+```javascript
+// in a vue instance check example in example/pages/index.vue
+this.darkmode.toggle() // this will work well only if `disableWidget: true` in the options
+
+// caution the following method is not reactive
+console.log(this.darkmode.isActivated())
+```
+
+## 💄 Override style
+* A CSS class `darkmode--activated` is added to the body tag when the darkmode is activated. You can take advantage of it to override the style and have a custom style
+* Use the class `darkmode-ignore` where you don't want to apply darkmode
+* You can also add this style: `isolation: isolate;` in your CSS, this will also ignore the darkmode.
+* It is also possible to revert the Dark Mode with this style `mix-blend-mode: difference;`
+
+### Examples
+```css
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+```
+```html
+<span class="darkmode-ignore">😬<span>
+```
+
+## 🐛 Debug
+If it does not work you may have to add the following code, but this will invalidate the classes to override.
+```css
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+```
+
+## 🚸 Browser compatibility
+This library uses the CSS `mix-blend-mode: difference;` to provide the Dark Mode.
+It may not be compatible with all the browsers. Therefore the widget has been hidden in Internet Explorer and Edge.
+This library also uses `prefers-color-scheme: dark` to automatically enable the Dark Mode if the OS prefered theme is dark.
+
+Check the compatibility here: 
+- https://caniuse.com/#search=mix-blend-mode
+- https://caniuse.com/#search=prefers-color-scheme (to activate Dark Mode automatically)
 
 ## ⚙️ Development
 
