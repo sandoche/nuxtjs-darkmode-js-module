@@ -9,6 +9,21 @@
       "name": "Sandoche Adittane"
     }
   ],
+  "keywords": [
+    "darkmode",
+    "dark",
+    "nightmode",
+    "night",
+    "dark-mode",
+    "night-mode",
+    "darktheme",
+    "dark-theme",
+    "vanilla",
+    "vanillajs",
+    "widget",
+    "nuxt-module",
+    "nuxtjs-module"
+  ],
   "files": [
     "lib"
   ],
