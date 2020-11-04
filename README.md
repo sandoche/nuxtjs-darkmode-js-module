@@ -2,8 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
-[![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
 > 🌓 Add darkmode / nightmode to your nuxt project in a few seconds
@@ -56,12 +54,6 @@ Copyright (c) Sandoche Adittane
 
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxtjs-darkmode-js-module.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxtjs-darkmode-js-module
-
-[github-actions-ci-src]: https://github.com/sandoche/nuxtjs-darkmode-js-module/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/sandoche/nuxtjs-darkmode-js-module/actions?query=workflow%3Aci
-
-[codecov-src]: https://img.shields.io/codecov/c/github/sandoche/nuxtjs-darkmode-js-module.svg
-[codecov-href]: https://codecov.io/gh/sandoche/nuxtjs-darkmode-js-module
 
 [license-src]: https://img.shields.io/npm/l/nuxtjs-darkmode-js-module.svg
 [license-href]: https://npmjs.com/package/nuxtjs-darkmode-js-module
