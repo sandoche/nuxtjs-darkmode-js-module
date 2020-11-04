@@ -6,9 +6,9 @@
 [![Medium Badge](https://badgen.net/badge/icon/medium?icon=medium&label)](https://medium.com/@sandoche)
 [![Twitter: sandochee](https://img.shields.io/twitter/follow/sandochee.svg?style=social)](https://twitter.com/sandochee)
 
-🌓 Add darkmode / nightmode to your nuxt project in a few seconds
+🌓 Add darkmode / nightmode to your Nuxt.js project in a few seconds
 
-This library adds [Darkmode.js](https://github.com/sandoche/Darkmode.js) to Nuxt.
+This library adds [Darkmode.js](https://github.com/sandoche/Darkmode.js) to Nuxt.js
 
 ## 💡 Features
 

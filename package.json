@@ -1,7 +1,7 @@
 {
   "name": "nuxtjs-darkmode-js-module",
   "version": "1.0.1",
-  "description": "🌓 Add darkmode / nightmode to your nuxt project in a few seconds",
+  "description": "🌓 Add darkmode / nightmode to your Nuxt.js project in a few seconds",
   "repository": "sandoche/nuxt-darkmode-js-module",
   "license": "MIT",
   "contributors": [
