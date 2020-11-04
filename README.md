@@ -153,4 +153,4 @@ Copyright (c) Sandoche Adittane
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxtjs-darkmode-js-module.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxtjs-darkmode-js-module
 [license-src]: https://img.shields.io/npm/l/nuxtjs-darkmode-js-module.svg
-[license-href]: https://npmjs.com/package/nuxtjs-darkmode-js-module
+[license-href]: ./LICENSE
